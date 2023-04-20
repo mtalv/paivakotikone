@@ -1,0 +1,133 @@
+body {
+    background-image: url(images/kukat.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+}
+
+.container-sm {
+    background-color: rgba(255, 252, 181, 0.7);
+    margin-top: 5%;
+    padding: 4%;
+    border-radius: 15px;
+}
+
+.container.text-center {
+    background-color: rgb(255, 249, 79);
+    padding: 5%;
+    width: 90%;
+    border-radius: 15px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container.text-left {
+    background-color: rgb(255, 249, 79);
+    padding: 5%;
+    width: 90%;
+    border-radius: 15px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.boksi1 {
+    width: 90%;
+}
+
+.boksi2 {
+    background-color: rgb(255, 252, 181);
+    width: 90%;
+    padding: 5%;
+    margin: auto;
+    border-radius: 15px;
+}
+
+.footteri {
+    position: bottom;
+    margin-top: 5%;
+}
+
+h1 {
+    font-family:'Courier New', Courier, monospace;
+}
+
+.vasen {
+    text-align: left;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+
+.navbar-brand {
+    color: #4f55ff;
+}
+
+.navbar-brand:hover {
+    color: #3438a8;
+}
+
+.p-4 {
+    text-align: center;
+    background-color: rgb(255, 249, 79);
+    height: 5em;
+    margin-top: 10%;
+    border-radius: 15px;
+    font-size: 1.25em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+a, .nav-link {
+    color: #4f55ff;
+    text-decoration: none;
+}
+
+a:hover, a.nav-link:hover {
+    font-weight: bold;
+    color: #3438a8;
+}
+
+/* a:visited {
+    color: #a14fff;
+} */
+
+#nimi {
+    text-align: right;
+    font-size: medium;
+}
+
+footer {
+    text-align: center;
+    color: black;
+    font-size: small;
+}
+
+#search-kaikki {
+    display: inline-block;
+}
+
+.btn {
+    background-color: #4f55ff;
+    color: white;
+}
+
+.accordion-item {
+    background-color: rgba(255, 252, 181);
+}
+
+.accordion-header {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.accordion-button {
+    background-color: rgb(255, 252, 181);
+}
+
+.accordion-button:active {
+    background-color: rgb(255, 249, 79);
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: rgb(255, 249, 79);
+}
