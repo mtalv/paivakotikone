@@ -41,9 +41,15 @@ body {
     border-radius: 15px;
 }
 
+.btn:hover {
+    background-color: #3438a8;
+    color: white;
+}
+
 .footteri {
-    position: bottom;
     margin-top: 5%;
+    bottom: 0%;
+    
 }
 
 h1 {
@@ -67,15 +73,17 @@ p {
     color: #3438a8;
 }
 
+.col-4 {
+    padding: 3%;
+}
+
 .p-4 {
-    text-align: center;
     background-color: rgb(255, 249, 79);
-    height: 5em;
-    margin-top: 10%;
+    height: 100%;
     border-radius: 15px;
-    font-size: 1.25em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+    font-weight: bold;
 }
 
 a, .nav-link {
@@ -88,23 +96,10 @@ a:hover, a.nav-link:hover {
     color: #3438a8;
 }
 
-/* a:visited {
-    color: #a14fff;
-} */
-
-#nimi {
-    text-align: right;
-    font-size: medium;
-}
-
 footer {
     text-align: center;
     color: black;
     font-size: small;
-}
-
-#search-kaikki {
-    display: inline-block;
 }
 
 .btn {

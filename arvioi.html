@@ -7,7 +7,7 @@
     <title>Arvioi päiväkoti</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="styles.css"
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
@@ -40,64 +40,65 @@
             <hr>
 
             <div class="boksi2">
+              <form>
                 <div class="form-floating mb-3">
-                  <form>
-                    <label for="paivakoti" class="form-label">Päiväkoti</label>
-                    <select class="form-select" aria-label="Päiväkodin valinta">
-                      <option selected> </option>
+                    <select class="form-select" id="paivakoti" aria-label="Päiväkodin valinta">
                       <option value="pk-kangaspelto">PK Kangaspelto</option>
                       <option value="pk-munkkivuori">PK Munkkivuori</option>
                       <option value="pk-muusa">PK Muusa</option>
                     </select>
+                    <label for="paivakoti">Valitse päiväkoti</label>
                 </div>
 
-                <label for="flexRadioDefault">Arvio</label>
-                <div class="form-check">
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioHyva">
-                    <label class="form-check-label" for="flexRadioHyva">
+                <label>Arvio</label><br>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="arvio" id="arvioHyva">
+                    <label class="form-check-label" for="arvioHyva">
                       <i class="bi bi-emoji-smile"></i> Hyvä
                     </label>
                 </div>
-                <div class="form-check">
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioOk">
-                    <label class="form-check-label" for="flexRadioOk">
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="arvio" id="arvioOk">
+                    <label class="form-check-label" for="arvioOk">
                       <i class="bi bi-emoji-neutral"></i> Ok
                     </label>
                 </div>
-                <div class="form-check">
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioHuono">
-                    <label class="form-check-label" for="flexRadioHuono">
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="arvio" id="arvioHuono">
+                    <label class="form-check-label" for="arvioHuono">
                       <i class="bi bi-emoji-frown"></i> Huono
                     </label>
                 </div>
                 <br>
+                <br>
 
-                <div class="mb-3">
-                    <label for="lisatiedot" class="form-label">Lisätietoja</label>
-                    <textarea class="form-control" id="lisatiedot" rows="3"></textarea>
+                <div class="form-floating mb-3">
+                   <textarea class="form-control" id="lisatiedot" style="height: 100px;"></textarea>
+                   <label for="lisatiedot">Lisätietoja</label>
                 </div>
 
-                <label>Ikäryhmä(t), jota/joita arvio koskee</label>
-                <div class="form-check">
+                <label>Ikäryhmä(t), jota/joita arvio koskee</label><br>
+                <div class="form-check form-check-inline">
                     <input class="form-check-input" type="checkbox" value="" id="flexCheck0-3">
                     <label class="form-check-label" for="flexCheck0-3">
                       0–3v
                     </label>
                   </div>
-                  <div class="form-check">
+                  <div class="form-check form-check-inline">
                     <input class="form-check-input" type="checkbox" value="" id="flexCheck3-5">
                     <label class="form-check-label" for="flexCheck3-5">
                       3–5v
                     </label>
                   </div>
-                  <div class="form-check">
+                  <div class="form-check form-check-inline">
                     <input class="form-check-input" type="checkbox" value="" id="flexCheck5-6">
                     <label class="form-check-label" for="flexCheck5-6">
                       5–6v
                     </label>
                   </div>
                   <br>
-                  <button class="btn btn-light" type="submit">Lähetä</button>
+                  <br>
+                  <button class="btn" type="submit">Lähetä</button>
                 </form>
             </div>
     
@@ -107,7 +108,7 @@
     <div class="container-fluid footteri">
       <footer>Päiväkotikone 2023
        <br>
-       <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank"><img alt="Creative Commons -lisenssi" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a></footer>
+       <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank"><img alt="Creative Commons -lisenssi" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png"></a></footer>
    </div>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
