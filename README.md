@@ -1,6 +1,6 @@
 Päiväkotikone
 
-Verkkosivu helsinkiläisten päiväkotien arvioimista varten.
+Verkkosivu helsinkiläisten päiväkotien arvioimista varten. Koulutehtävä / Laurea R0244-3027, kevät 2023.
 
 Hyödynnetyt lähteet:
 - getbootstrap.com
