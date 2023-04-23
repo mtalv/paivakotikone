@@ -77,6 +77,10 @@ p {
     padding: 3%;
 }
 
+.nav-item {
+    text-align: right;
+}
+
 .p-4 {
     background-color: rgb(255, 249, 79);
     height: 100%;
